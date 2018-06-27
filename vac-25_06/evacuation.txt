@@ -1,0 +1,1056 @@
+12:19:19.193 INFO[MAIN]: system started, logger created
+12:19:19.193 INFO[MAIN]: creating sensors
+12:19:19.193 INFO[MAIN]: creating VL6180
+12:19:19.217 INFO[VL6180]: Creating a sensor with id: 41
+12:19:19.217 INFO[MAIN]: creating VL6180
+12:19:19.217 INFO[GPIO]: exporting 66
+12:19:19.217 INFO[GPIO]: could not export GPIO $d, might be already exported
+12:19:19.217 INFO[GPIO]: pin 66 was successfully exported
+12:19:20.221 INFO[MPU9250]: Creating a sensor with id: 1
+12:19:20.221 INFO[MAIN]: creating BMS
+12:19:20.222 INFO[CAN]: socket successfully created
+12:19:20.224 INFO[MAIN]: creating can proxi
+12:19:20.224 INFO[MAIN]: all sensors created, entering test loop
+12:19:20.224 INFO[CAN]: starting continuous reading
+12:19:20.224 INFO[BMS]: module 1: starting BMS
+12:19:20.225 INFO[BMS]: module 0: starting BMS
+12:19:20.229 INFO[TEST]: proxi here distance: 0
+12:19:20.229 INFO[TEST]: proxi can  distance: 0
+12:19:20.229 INFO[TEST]: imu acc 0.483629 -23.125593 9.818621
+12:19:20.229 INFO[TEST]: imu gyr -0.641221 1.954198 0.465649
+12:19:20.229 INFO[TEST]: bms0 voltage, current, temp: 0 0 0
+12:19:20.229 INFO[TEST]: bms1 voltage, current, temp: 0 0 0
+12:19:20.229 INFO[TEST]: 
+12:19:20.340 INFO[TEST]: proxi here distance: 0
+12:19:20.340 INFO[TEST]: proxi can  distance: 0
+12:19:20.340 INFO[TEST]: imu acc -0.198719 8.791509 -29.349321
+12:19:20.340 INFO[TEST]: imu gyr 0.000000 1.038168 46.900764
+12:19:20.341 INFO[TEST]: bms0 voltage, current, temp: 20189 320 22
+12:19:20.341 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:20.341 INFO[TEST]: 
+12:19:20.447 INFO[TEST]: proxi here distance: 0
+12:19:20.447 INFO[TEST]: proxi can  distance: 0
+12:19:20.447 INFO[TEST]: imu acc 0.040701 -1.137246 -34.262222
+12:19:20.448 INFO[TEST]: imu gyr 0.435115 178.267181 0.000000
+12:19:20.448 INFO[TEST]: bms0 voltage, current, temp: 20189 320 22
+12:19:20.448 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:20.448 INFO[TEST]: 
+12:19:20.554 INFO[TEST]: proxi here distance: 0
+12:19:20.554 INFO[TEST]: proxi can  distance: 0
+12:19:20.554 INFO[TEST]: imu acc 0.189142 -37.304054 24.711752
+12:19:20.554 INFO[TEST]: imu gyr -0.572519 -191.664124 -1.954198
+12:19:20.554 INFO[TEST]: bms0 voltage, current, temp: 20189 320 22
+12:19:20.555 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:20.555 INFO[TEST]: 
+12:19:20.662 INFO[TEST]: proxi here distance: 0
+12:19:20.662 INFO[TEST]: proxi can  distance: 0
+12:19:20.662 INFO[TEST]: imu acc 0.129287 -0.266953 3.369839
+12:19:20.662 INFO[TEST]: imu gyr -1.946565 2.404580 97.709923
+12:19:20.662 INFO[TEST]: bms0 voltage, current, temp: 20189 312 22
+12:19:20.662 INFO[TEST]: bms1 voltage, current, temp: 22404 312 -40
+12:19:20.662 INFO[TEST]: 
+12:19:20.769 INFO[TEST]: proxi here distance: 0
+12:19:20.769 INFO[TEST]: proxi can  distance: 0
+12:19:20.769 INFO[TEST]: imu acc 0.328006 -0.266953 10.163386
+12:19:20.769 INFO[TEST]: imu gyr 0.038168 -28.709923 0.000000
+12:19:20.769 INFO[TEST]: bms0 voltage, current, temp: 20189 312 22
+12:19:20.769 INFO[TEST]: bms1 voltage, current, temp: 22404 312 -40
+12:19:20.769 INFO[TEST]: 
+12:19:21.876 INFO[TEST]: proxi here distance: 0
+12:19:21.876 INFO[TEST]: proxi can  distance: 0
+12:19:21.876 INFO[TEST]: imu acc 0.502782 -0.526724 29.709648
+12:19:21.876 INFO[TEST]: imu gyr -0.259542 1.106870 0.244275
+12:19:21.876 INFO[TEST]: bms0 voltage, current, temp: 20189 317 22
+12:19:21.876 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:21.876 INFO[TEST]: 
+12:19:21.983 INFO[TEST]: proxi here distance: 0
+12:19:21.983 INFO[TEST]: proxi can  distance: 0
+12:19:21.983 INFO[TEST]: imu acc 0.349553 -15.780183 34.517204
+12:19:21.983 INFO[TEST]: imu gyr -0.580153 1.954198 0.000000
+12:19:21.983 INFO[TEST]: bms0 voltage, current, temp: 20189 317 22
+12:19:21.983 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:21.983 INFO[TEST]: 
+12:19:21.091 INFO[TEST]: proxi here distance: 0
+12:19:21.091 INFO[TEST]: proxi can  distance: 0
+12:19:21.091 INFO[TEST]: imu acc 0.409408 -24.408886 29.527689
+12:19:21.091 INFO[TEST]: imu gyr -1.954198 1.824427 29.412214
+12:19:21.091 INFO[TEST]: bms0 voltage, current, temp: 20189 315 22
+12:19:21.095 INFO[TEST]: bms1 voltage, current, temp: 22404 315 -40
+12:19:21.095 INFO[TEST]: 
+12:19:21.204 INFO[TEST]: proxi here distance: 0
+12:19:21.204 INFO[TEST]: proxi can  distance: 0
+12:19:21.204 INFO[TEST]: imu acc 0.438139 0.038307 3.369839
+12:19:21.204 INFO[TEST]: imu gyr -0.954198 0.854962 0.091603
+12:19:21.204 INFO[TEST]: bms0 voltage, current, temp: 20189 315 22
+12:19:21.204 INFO[TEST]: bms1 voltage, current, temp: 22404 315 -40
+12:19:21.204 INFO[TEST]: 
+12:19:21.311 INFO[TEST]: proxi here distance: 0
+12:19:21.311 INFO[TEST]: proxi can  distance: 0
+12:19:21.311 INFO[TEST]: imu acc 0.232238 25.227703 7.469909
+12:19:21.311 INFO[TEST]: imu gyr 1.946565 0.877863 0.000000
+12:19:21.311 INFO[TEST]: bms0 voltage, current, temp: 20188 315 22
+12:19:21.311 INFO[TEST]: bms1 voltage, current, temp: 22404 315 -40
+12:19:21.312 INFO[TEST]: 
+12:19:21.419 INFO[TEST]: proxi here distance: 0
+12:19:21.419 INFO[TEST]: proxi can  distance: 0
+12:19:21.419 INFO[TEST]: imu acc 0.366313 0.347159 10.419565
+12:19:21.419 INFO[TEST]: imu gyr -1.954198 1.435115 131.412216
+12:19:21.419 INFO[TEST]: bms0 voltage, current, temp: 20188 332 22
+12:19:21.419 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:21.419 INFO[TEST]: 
+12:19:21.526 INFO[TEST]: proxi here distance: 0
+12:19:21.526 INFO[TEST]: proxi can  distance: 0
+12:19:21.526 INFO[TEST]: imu acc 0.426168 -23.702597 -34.122162
+12:19:21.526 INFO[TEST]: imu gyr -0.954198 -207.893127 -1.954198
+12:19:21.526 INFO[TEST]: bms0 voltage, current, temp: 20188 332 22
+12:19:21.526 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:21.526 INFO[TEST]: 
+12:19:21.634 INFO[TEST]: proxi here distance: 0
+12:19:21.634 INFO[TEST]: proxi can  distance: 0
+12:19:21.634 INFO[TEST]: imu acc 0.347159 -17.618931 14.865598
+12:19:21.634 INFO[TEST]: imu gyr 1.893130 0.000000 0.000000
+12:19:21.634 INFO[TEST]: bms0 voltage, current, temp: 20188 327 22
+12:19:21.634 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:21.634 INFO[TEST]: 
+12:19:21.741 INFO[TEST]: proxi here distance: 0
+12:19:21.741 INFO[TEST]: proxi can  distance: 0
+12:19:21.741 INFO[TEST]: imu acc 0.526724 3.076549 -21.279665
+12:19:21.741 INFO[TEST]: imu gyr -0.885496 -238.099243 0.267176
+12:19:21.741 INFO[TEST]: bms0 voltage, current, temp: 20188 327 22
+12:19:21.741 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:21.741 INFO[TEST]: 
+12:19:22.848 INFO[TEST]: proxi here distance: 0
+12:19:22.848 INFO[TEST]: proxi can  distance: 0
+12:19:22.848 INFO[TEST]: imu acc 0.268151 -36.473267 -34.091038
+12:19:22.848 INFO[TEST]: imu gyr -0.557252 1.007634 82.076332
+12:19:22.848 INFO[TEST]: bms0 voltage, current, temp: 20188 317 22
+12:19:22.848 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:22.848 INFO[TEST]: 
+12:19:22.955 INFO[TEST]: proxi here distance: 0
+12:19:22.955 INFO[TEST]: proxi can  distance: 0
+12:19:22.955 INFO[TEST]: imu acc 0.069432 19.689915 33.825279
+12:19:22.955 INFO[TEST]: imu gyr 0.458015 0.000000 0.358779
+12:19:22.955 INFO[TEST]: bms0 voltage, current, temp: 20188 317 22
+12:19:22.955 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:22.955 INFO[TEST]: 
+12:19:22.063 INFO[TEST]: proxi here distance: 0
+12:19:22.063 INFO[TEST]: proxi can  distance: 0
+12:19:22.063 INFO[TEST]: imu acc 0.342371 37.598541 9.986216
+12:19:22.063 INFO[TEST]: imu gyr -1.954198 0.679389 0.473282
+12:19:22.063 INFO[TEST]: bms0 voltage, current, temp: 20188 317 22
+12:19:22.063 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:22.063 INFO[TEST]: 
+12:19:22.170 INFO[TEST]: proxi here distance: 0
+12:19:22.170 INFO[TEST]: proxi can  distance: 0
+12:19:22.170 INFO[TEST]: imu acc 0.191536 -18.768147 -20.647594
+12:19:22.170 INFO[TEST]: imu gyr -0.541985 74.549622 0.000000
+12:19:22.170 INFO[TEST]: bms0 voltage, current, temp: 20188 310 22
+12:19:22.170 INFO[TEST]: bms1 voltage, current, temp: 22404 310 -40
+12:19:22.170 INFO[TEST]: 
+12:19:22.277 INFO[TEST]: proxi here distance: 0
+12:19:22.277 INFO[TEST]: proxi can  distance: 0
+12:19:22.277 INFO[TEST]: imu acc -0.059855 -0.575805 3.064578
+12:19:22.282 INFO[TEST]: imu gyr 0.404580 0.923664 0.000000
+12:19:22.282 INFO[TEST]: bms0 voltage, current, temp: 20188 310 21
+12:19:22.282 INFO[TEST]: bms1 voltage, current, temp: 22404 310 -40
+12:19:22.282 INFO[TEST]: 
+12:19:22.388 INFO[TEST]: proxi here distance: 0
+12:19:22.388 INFO[TEST]: proxi can  distance: 0
+12:19:22.388 INFO[TEST]: imu acc 0.033519 -35.259407 24.806324
+12:19:22.388 INFO[TEST]: imu gyr -0.007634 -1.954198 0.000000
+12:19:22.388 INFO[TEST]: bms0 voltage, current, temp: 20188 335 21
+12:19:22.388 INFO[TEST]: bms1 voltage, current, temp: 22404 335 -40
+12:19:22.388 INFO[TEST]: 
+12:19:22.496 INFO[TEST]: proxi here distance: 0
+12:19:22.496 INFO[TEST]: proxi can  distance: 0
+12:19:22.496 INFO[TEST]: imu acc 0.191536 -0.575805 3.064578
+12:19:22.496 INFO[TEST]: imu gyr 0.404580 174.603058 54.717556
+12:19:22.496 INFO[TEST]: bms0 voltage, current, temp: 20188 335 21
+12:19:22.496 INFO[TEST]: bms1 voltage, current, temp: 22404 335 -40
+12:19:22.496 INFO[TEST]: 
+12:19:22.603 INFO[TEST]: proxi here distance: 0
+12:19:22.603 INFO[TEST]: proxi can  distance: 0
+12:19:22.603 INFO[TEST]: imu acc 0.184354 0.038307 3.369839
+12:19:22.603 INFO[TEST]: imu gyr -0.625954 1.251908 84.305344
+12:19:22.603 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:22.603 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:22.603 INFO[TEST]: 
+12:19:22.710 INFO[TEST]: proxi here distance: 0
+12:19:22.710 INFO[TEST]: proxi can  distance: 0
+12:19:22.710 INFO[TEST]: imu acc 0.189142 26.451139 29.673735
+12:19:22.711 INFO[TEST]: imu gyr -0.465649 0.000000 0.000000
+12:19:22.711 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:22.711 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:22.711 INFO[TEST]: 
+12:19:22.818 INFO[TEST]: proxi here distance: 0
+12:19:22.818 INFO[TEST]: proxi can  distance: 0
+12:19:22.818 INFO[TEST]: imu acc 0.409408 15.416265 15.015236
+12:19:22.818 INFO[TEST]: imu gyr -0.358779 199.358780 0.000000
+12:19:22.818 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:22.818 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:22.818 INFO[TEST]: 
+12:19:23.925 INFO[TEST]: proxi here distance: 0
+12:19:23.925 INFO[TEST]: proxi can  distance: 0
+12:19:23.925 INFO[TEST]: imu acc 0.296881 -37.220261 24.723724
+12:19:23.925 INFO[TEST]: imu gyr -1.954198 1.465649 158.908401
+12:19:23.925 INFO[TEST]: bms0 voltage, current, temp: 20188 355 21
+12:19:23.925 INFO[TEST]: bms1 voltage, current, temp: 22404 355 -40
+12:19:23.925 INFO[TEST]: 
+12:19:23.032 INFO[TEST]: proxi here distance: 0
+12:19:23.032 INFO[TEST]: proxi can  distance: 0
+12:19:23.032 INFO[TEST]: imu acc 0.325611 24.530991 -29.172150
+12:19:23.032 INFO[TEST]: imu gyr -0.755725 180.488556 0.000000
+12:19:23.032 INFO[TEST]: bms0 voltage, current, temp: 20188 355 21
+12:19:23.032 INFO[TEST]: bms1 voltage, current, temp: 22404 355 -40
+12:19:23.032 INFO[TEST]: 
+12:19:23.139 INFO[TEST]: proxi here distance: 0
+12:19:23.139 INFO[TEST]: proxi can  distance: 0
+12:19:23.139 INFO[TEST]: imu acc 0.411803 -7.225700 29.715633
+12:19:23.139 INFO[TEST]: imu gyr -0.229008 -153.068695 89.893127
+12:19:23.139 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:23.140 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:23.140 INFO[TEST]: 
+12:19:23.246 INFO[TEST]: proxi here distance: 0
+12:19:23.247 INFO[TEST]: proxi can  distance: 0
+12:19:23.247 INFO[TEST]: imu acc 0.248997 36.303280 7.999028
+12:19:23.247 INFO[TEST]: imu gyr -0.137405 -231.503815 0.000000
+12:19:23.247 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:23.247 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:23.247 INFO[TEST]: 
+12:19:23.354 INFO[TEST]: proxi here distance: 0
+12:19:23.354 INFO[TEST]: proxi can  distance: 0
+12:19:23.354 INFO[TEST]: imu acc 0.428562 6.325481 29.662962
+12:19:23.354 INFO[TEST]: imu gyr -1.954198 0.000000 0.274809
+12:19:23.354 INFO[TEST]: bms0 voltage, current, temp: 20188 312 21
+12:19:23.354 INFO[TEST]: bms1 voltage, current, temp: 22403 312 -40
+12:19:23.354 INFO[TEST]: 
+12:19:23.460 INFO[TEST]: proxi here distance: 0
+12:19:23.463 INFO[TEST]: proxi can  distance: 0
+12:19:23.463 INFO[TEST]: imu acc 0.292093 -33.063927 24.550144
+12:19:23.464 INFO[TEST]: imu gyr -0.763359 -189.229004 0.000000
+12:19:23.464 INFO[TEST]: bms0 voltage, current, temp: 20188 312 21
+12:19:23.464 INFO[TEST]: bms1 voltage, current, temp: 22403 312 -40
+12:19:23.464 INFO[TEST]: 
+12:19:23.575 INFO[TEST]: proxi here distance: 0
+12:19:23.575 INFO[TEST]: proxi can  distance: 0
+12:19:23.575 INFO[TEST]: imu acc 0.509965 0.038307 3.369839
+12:19:23.575 INFO[TEST]: imu gyr -0.366412 1.954198 0.000000
+12:19:23.575 INFO[TEST]: bms0 voltage, current, temp: 20188 312 21
+12:19:23.575 INFO[TEST]: bms1 voltage, current, temp: 22403 312 -40
+12:19:23.575 INFO[TEST]: 
+12:19:23.682 INFO[TEST]: proxi here distance: 0
+12:19:23.682 INFO[TEST]: proxi can  distance: 0
+12:19:23.682 INFO[TEST]: imu acc 0.773327 -2.770091 -33.595436
+12:19:23.682 INFO[TEST]: imu gyr -1.091603 2.068702 0.000000
+12:19:23.682 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:23.682 INFO[TEST]: bms1 voltage, current, temp: 22403 317 -40
+12:19:23.682 INFO[TEST]: 
+12:19:23.789 INFO[TEST]: proxi here distance: 0
+12:19:23.789 INFO[TEST]: proxi can  distance: 0
+12:19:23.789 INFO[TEST]: imu acc 0.294487 3.275268 24.526201
+12:19:23.789 INFO[TEST]: imu gyr -1.946565 0.000000 0.000000
+12:19:23.789 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:23.789 INFO[TEST]: bms1 voltage, current, temp: 22402 317 -40
+12:19:23.789 INFO[TEST]: 
+12:19:24.896 INFO[TEST]: proxi here distance: 0
+12:19:24.896 INFO[TEST]: proxi can  distance: 0
+12:19:24.896 INFO[TEST]: imu acc 0.433351 0.038307 3.369839
+12:19:24.896 INFO[TEST]: imu gyr 0.290076 0.000000 0.000000
+12:19:24.896 INFO[TEST]: bms0 voltage, current, temp: 20188 332 21
+12:19:24.896 INFO[TEST]: bms1 voltage, current, temp: 22402 332 -40
+12:19:24.896 INFO[TEST]: 
+12:19:24.003 INFO[TEST]: proxi here distance: 0
+12:19:24.003 INFO[TEST]: proxi can  distance: 0
+12:19:24.003 INFO[TEST]: imu acc 0.852336 -27.377695 -29.254749
+12:19:24.003 INFO[TEST]: imu gyr -0.717557 -39.244274 37.274811
+12:19:24.003 INFO[TEST]: bms0 voltage, current, temp: 20188 332 21
+12:19:24.004 INFO[TEST]: bms1 voltage, current, temp: 22402 332 -40
+12:19:24.004 INFO[TEST]: 
+12:19:24.111 INFO[TEST]: proxi here distance: 0
+12:19:24.111 INFO[TEST]: proxi can  distance: 0
+12:19:24.111 INFO[TEST]: imu acc 0.474052 22.953211 0.047884
+12:19:24.111 INFO[TEST]: imu gyr -0.549618 60.839695 0.000000
+12:19:24.111 INFO[TEST]: bms0 voltage, current, temp: 20188 320 21
+12:19:24.111 INFO[TEST]: bms1 voltage, current, temp: 22402 320 -40
+12:19:24.111 INFO[TEST]: 
+12:19:24.218 INFO[TEST]: proxi here distance: 0
+12:19:24.218 INFO[TEST]: proxi can  distance: 0
+12:19:24.218 INFO[TEST]: imu acc 0.426168 15.356409 34.608185
+12:19:24.218 INFO[TEST]: imu gyr 0.198473 0.000000 -0.015267
+12:19:24.218 INFO[TEST]: bms0 voltage, current, temp: 20188 320 21
+12:19:24.218 INFO[TEST]: bms1 voltage, current, temp: 22402 320 -40
+12:19:24.219 INFO[TEST]: 
+12:19:24.324 INFO[TEST]: proxi here distance: 0
+12:19:24.324 INFO[TEST]: proxi can  distance: 0
+12:19:24.324 INFO[TEST]: imu acc 0.543484 8.243237 -29.197289
+12:19:24.324 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:24.324 INFO[TEST]: bms0 voltage, current, temp: 20188 320 21
+12:19:24.324 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:24.324 INFO[TEST]: 
+12:19:24.432 INFO[TEST]: proxi here distance: 0
+12:19:24.432 INFO[TEST]: proxi can  distance: 0
+12:19:24.432 INFO[TEST]: imu acc 0.215478 15.444995 10.010158
+12:19:24.432 INFO[TEST]: imu gyr -1.954198 0.969466 23.564886
+12:19:24.432 INFO[TEST]: bms0 voltage, current, temp: 20188 340 21
+12:19:24.432 INFO[TEST]: bms1 voltage, current, temp: 22404 340 -40
+12:19:24.432 INFO[TEST]: 
+12:19:24.538 INFO[TEST]: proxi here distance: 0
+12:19:24.538 INFO[TEST]: proxi can  distance: 0
+12:19:24.538 INFO[TEST]: imu acc -0.055067 6.289568 29.428329
+12:19:24.538 INFO[TEST]: imu gyr -1.954198 0.732824 0.343511
+12:19:24.538 INFO[TEST]: bms0 voltage, current, temp: 20188 340 21
+12:19:24.538 INFO[TEST]: bms1 voltage, current, temp: 22404 340 -40
+12:19:24.542 INFO[TEST]: 
+12:19:24.653 INFO[TEST]: proxi here distance: 0
+12:19:24.653 INFO[TEST]: proxi can  distance: 0
+12:19:24.653 INFO[TEST]: imu acc 0.459687 6.754043 29.592333
+12:19:24.654 INFO[TEST]: imu gyr -1.946565 2.450382 29.312977
+12:19:24.654 INFO[TEST]: bms0 voltage, current, temp: 20188 335 21
+12:19:24.654 INFO[TEST]: bms1 voltage, current, temp: 22404 335 -40
+12:19:24.654 INFO[TEST]: 
+12:19:24.760 INFO[TEST]: proxi here distance: 0
+12:19:24.760 INFO[TEST]: proxi can  distance: 0
+12:19:24.760 INFO[TEST]: imu acc 0.385466 0.039504 3.369839
+12:19:24.760 INFO[TEST]: imu gyr -0.541985 -71.992363 0.343511
+12:19:24.760 INFO[TEST]: bms0 voltage, current, temp: 20187 335 21
+12:19:24.760 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:24.760 INFO[TEST]: 
+12:19:25.868 INFO[TEST]: proxi here distance: 0
+12:19:25.868 INFO[TEST]: proxi can  distance: 0
+12:19:25.868 INFO[TEST]: imu acc 0.320823 -37.227440 10.125079
+12:19:25.868 INFO[TEST]: imu gyr -0.206107 0.633588 0.000000
+12:19:25.868 INFO[TEST]: bms0 voltage, current, temp: 20187 322 21
+12:19:25.868 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:25.868 INFO[TEST]: 
+12:19:25.975 INFO[TEST]: proxi here distance: 0
+12:19:25.975 INFO[TEST]: proxi can  distance: 0
+12:19:25.975 INFO[TEST]: imu acc 0.466869 -17.590200 24.697388
+12:19:25.975 INFO[TEST]: imu gyr -0.717557 129.435120 0.137405
+12:19:25.975 INFO[TEST]: bms0 voltage, current, temp: 20187 322 21
+12:19:25.975 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:25.975 INFO[TEST]: 
+12:19:25.082 INFO[TEST]: proxi here distance: 0
+12:19:25.082 INFO[TEST]: proxi can  distance: 0
+12:19:25.082 INFO[TEST]: imu acc 0.409408 -29.211655 10.075997
+12:19:25.082 INFO[TEST]: imu gyr -0.183206 -39.244274 115.297707
+12:19:25.082 INFO[TEST]: bms0 voltage, current, temp: 20187 322 21
+12:19:25.083 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:25.083 INFO[TEST]: 
+12:19:25.189 INFO[TEST]: proxi here distance: 0
+12:19:25.189 INFO[TEST]: proxi can  distance: 0
+12:19:25.189 INFO[TEST]: imu acc 0.294487 30.698454 10.071209
+12:19:25.190 INFO[TEST]: imu gyr 0.061069 0.000000 0.419847
+12:19:25.190 INFO[TEST]: bms0 voltage, current, temp: 20187 322 21
+12:19:25.190 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:25.190 INFO[TEST]: 
+12:19:25.297 INFO[TEST]: proxi here distance: 0
+12:19:25.297 INFO[TEST]: proxi can  distance: 0
+12:19:25.297 INFO[TEST]: imu acc 0.612916 0.234632 34.419044
+12:19:25.297 INFO[TEST]: imu gyr -1.946565 1.954198 0.114504
+12:19:25.297 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:25.297 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:25.297 INFO[TEST]: 
+12:19:25.403 INFO[TEST]: proxi here distance: 0
+12:19:25.403 INFO[TEST]: proxi can  distance: 0
+12:19:25.403 INFO[TEST]: imu acc 0.268151 14.803349 24.770411
+12:19:25.403 INFO[TEST]: imu gyr 1.931298 1.038168 113.343513
+12:19:25.403 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:25.403 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:25.404 INFO[TEST]: 
+12:19:25.511 INFO[TEST]: proxi here distance: 0
+12:19:25.511 INFO[TEST]: proxi can  distance: 0
+12:19:25.511 INFO[TEST]: imu acc 0.316035 -11.482592 34.332851
+12:19:25.511 INFO[TEST]: imu gyr 0.236641 1.129771 113.786263
+12:19:25.511 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:25.511 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:25.511 INFO[TEST]: 
+12:19:25.618 INFO[TEST]: proxi here distance: 0
+12:19:25.618 INFO[TEST]: proxi can  distance: 0
+12:19:25.618 INFO[TEST]: imu acc 0.507571 0.038307 3.369839
+12:19:25.618 INFO[TEST]: imu gyr -0.106870 1.167939 -1.954198
+12:19:25.618 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:25.618 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:25.618 INFO[TEST]: 
+12:19:25.725 INFO[TEST]: proxi here distance: 0
+12:19:25.725 INFO[TEST]: proxi can  distance: 0
+12:19:25.725 INFO[TEST]: imu acc 0.296881 -38.446091 9.998186
+12:19:25.725 INFO[TEST]: imu gyr -0.534351 0.847328 60.580154
+12:19:25.725 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:25.729 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:25.729 INFO[TEST]: 
+12:19:26.833 INFO[TEST]: proxi here distance: 0
+12:19:26.833 INFO[TEST]: proxi can  distance: 0
+12:19:26.833 INFO[TEST]: imu acc 0.414197 16.117765 0.003591
+12:19:26.833 INFO[TEST]: imu gyr 0.091603 237.000000 0.000000
+12:19:26.833 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:26.833 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:26.833 INFO[TEST]: 
+12:19:26.942 INFO[TEST]: proxi here distance: 0
+12:19:26.942 INFO[TEST]: proxi can  distance: 0
+12:19:26.942 INFO[TEST]: imu acc 0.253785 -15.073894 -34.043152
+12:19:26.943 INFO[TEST]: imu gyr -0.755725 -41.152672 -0.145038
+12:19:26.943 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:26.943 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:26.943 INFO[TEST]: 
+12:19:26.050 INFO[TEST]: proxi here distance: 0
+12:19:26.050 INFO[TEST]: proxi can  distance: 0
+12:19:26.050 INFO[TEST]: imu acc 0.225055 -0.268151 3.064578
+12:19:26.050 INFO[TEST]: imu gyr -1.954198 -228.480911 0.000000
+12:19:26.050 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:26.050 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:26.050 INFO[TEST]: 
+12:19:26.157 INFO[TEST]: proxi here distance: 0
+12:19:26.157 INFO[TEST]: proxi can  distance: 0
+12:19:26.157 INFO[TEST]: imu acc 0.313640 3.737349 -13.924677
+12:19:26.157 INFO[TEST]: imu gyr -1.954198 0.000000 0.122137
+12:19:26.157 INFO[TEST]: bms0 voltage, current, temp: 20188 302 21
+12:19:26.157 INFO[TEST]: bms1 voltage, current, temp: 22404 302 -40
+12:19:26.157 INFO[TEST]: 
+12:19:26.263 INFO[TEST]: proxi here distance: 0
+12:19:26.264 INFO[TEST]: proxi can  distance: 0
+12:19:26.264 INFO[TEST]: imu acc 0.445322 -13.335703 9.818621
+12:19:26.264 INFO[TEST]: imu gyr -0.954198 1.954198 0.030534
+12:19:26.264 INFO[TEST]: bms0 voltage, current, temp: 20188 302 21
+12:19:26.264 INFO[TEST]: bms1 voltage, current, temp: 22404 302 -40
+12:19:26.264 INFO[TEST]: 
+12:19:26.371 INFO[TEST]: proxi here distance: 0
+12:19:26.371 INFO[TEST]: proxi can  distance: 0
+12:19:26.371 INFO[TEST]: imu acc 0.306458 -0.266953 3.064578
+12:19:26.371 INFO[TEST]: imu gyr -0.160305 0.000000 0.000000
+12:19:26.371 INFO[TEST]: bms0 voltage, current, temp: 20188 310 21
+12:19:26.371 INFO[TEST]: bms1 voltage, current, temp: 22404 310 -40
+12:19:26.371 INFO[TEST]: 
+12:19:26.478 INFO[TEST]: proxi here distance: 0
+12:19:26.478 INFO[TEST]: proxi can  distance: 0
+12:19:26.478 INFO[TEST]: imu acc 0.380678 25.208549 -34.099419
+12:19:26.478 INFO[TEST]: imu gyr -0.290076 -196.236649 0.305344
+12:19:26.478 INFO[TEST]: bms0 voltage, current, temp: 20188 310 21
+12:19:26.478 INFO[TEST]: bms1 voltage, current, temp: 22404 310 -40
+12:19:26.478 INFO[TEST]: 
+12:19:26.585 INFO[TEST]: proxi here distance: 0
+12:19:26.585 INFO[TEST]: proxi can  distance: 0
+12:19:26.585 INFO[TEST]: imu acc 0.574608 0.866701 9.818621
+12:19:26.585 INFO[TEST]: imu gyr -0.954198 47.114502 19.610687
+12:19:26.585 INFO[TEST]: bms0 voltage, current, temp: 20188 310 21
+12:19:26.585 INFO[TEST]: bms1 voltage, current, temp: 22404 310 -40
+12:19:26.585 INFO[TEST]: 
+12:19:26.692 INFO[TEST]: proxi here distance: 0
+12:19:26.692 INFO[TEST]: proxi can  distance: 0
+12:19:26.692 INFO[TEST]: imu acc 0.414197 -32.920273 -26.872519
+12:19:26.692 INFO[TEST]: imu gyr -0.366412 1.961832 0.000000
+12:19:26.692 INFO[TEST]: bms0 voltage, current, temp: 20188 330 21
+12:19:26.693 INFO[TEST]: bms1 voltage, current, temp: 22404 330 -40
+12:19:26.693 INFO[TEST]: 
+12:19:26.799 INFO[TEST]: proxi here distance: 0
+12:19:26.799 INFO[TEST]: proxi can  distance: 0
+12:19:26.799 INFO[TEST]: imu acc 0.373495 16.098612 24.758440
+12:19:26.799 INFO[TEST]: imu gyr 0.038168 0.885496 111.389313
+12:19:26.799 INFO[TEST]: bms0 voltage, current, temp: 20188 330 21
+12:19:26.799 INFO[TEST]: bms1 voltage, current, temp: 22405 330 -40
+12:19:26.799 INFO[TEST]: 
+12:19:27.906 INFO[TEST]: proxi here distance: 0
+12:19:27.906 INFO[TEST]: proxi can  distance: 0
+12:19:27.907 INFO[TEST]: imu acc 0.588974 -21.167137 9.818621
+12:19:27.910 INFO[TEST]: imu gyr -0.610687 162.328247 0.129771
+12:19:27.910 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:27.910 INFO[TEST]: bms1 voltage, current, temp: 22405 325 -40
+12:19:27.910 INFO[TEST]: 
+12:19:27.020 INFO[TEST]: proxi here distance: 0
+12:19:27.020 INFO[TEST]: proxi can  distance: 0
+12:19:27.020 INFO[TEST]: imu acc 0.330400 2.545036 24.819492
+12:19:27.020 INFO[TEST]: imu gyr -0.076336 31.732824 0.465649
+12:19:27.020 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:27.020 INFO[TEST]: bms1 voltage, current, temp: 22405 325 -40
+12:19:27.020 INFO[TEST]: 
+12:19:27.127 INFO[TEST]: proxi here distance: 0
+12:19:27.127 INFO[TEST]: proxi can  distance: 0
+12:19:27.127 INFO[TEST]: imu acc 0.454898 -0.268151 3.064578
+12:19:27.127 INFO[TEST]: imu gyr -0.022901 0.000000 0.145038
+12:19:27.127 INFO[TEST]: bms0 voltage, current, temp: 20188 327 21
+12:19:27.127 INFO[TEST]: bms1 voltage, current, temp: 22405 327 -40
+12:19:27.127 INFO[TEST]: 
+12:19:27.236 INFO[TEST]: proxi here distance: 0
+12:19:27.236 INFO[TEST]: proxi can  distance: 0
+12:19:27.236 INFO[TEST]: imu acc 0.098162 -0.269348 3.064578
+12:19:27.236 INFO[TEST]: imu gyr 0.000000 0.000000 0.000000
+12:19:27.236 INFO[TEST]: bms0 voltage, current, temp: 20188 327 21
+12:19:27.236 INFO[TEST]: bms1 voltage, current, temp: 22405 327 -40
+12:19:27.236 INFO[TEST]: 
+12:19:27.342 INFO[TEST]: proxi here distance: 0
+12:19:27.342 INFO[TEST]: proxi can  distance: 0
+12:19:27.342 INFO[TEST]: imu acc 0.375890 25.182213 29.472622
+12:19:27.342 INFO[TEST]: imu gyr -0.419847 0.000000 0.404580
+12:19:27.342 INFO[TEST]: bms0 voltage, current, temp: 20188 327 21
+12:19:27.342 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:27.342 INFO[TEST]: 
+12:19:27.449 INFO[TEST]: proxi here distance: 0
+12:19:27.449 INFO[TEST]: proxi can  distance: 0
+12:19:27.449 INFO[TEST]: imu acc 0.481235 -0.269348 3.369839
+12:19:27.450 INFO[TEST]: imu gyr 0.076336 -204.725189 0.000000
+12:19:27.450 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:27.450 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:27.450 INFO[TEST]: 
+12:19:27.556 INFO[TEST]: proxi here distance: 0
+12:19:27.557 INFO[TEST]: proxi can  distance: 0
+12:19:27.557 INFO[TEST]: imu acc 0.177171 19.613300 29.674932
+12:19:27.557 INFO[TEST]: imu gyr -1.946565 0.000000 0.000000
+12:19:27.557 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:27.557 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:27.557 INFO[TEST]: 
+12:19:27.664 INFO[TEST]: proxi here distance: 0
+12:19:27.664 INFO[TEST]: proxi can  distance: 0
+12:19:27.664 INFO[TEST]: imu acc 0.217872 -34.859577 24.539370
+12:19:27.664 INFO[TEST]: imu gyr -0.007634 0.000000 0.000000
+12:19:27.664 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:27.664 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:27.664 INFO[TEST]: 
+12:19:27.771 INFO[TEST]: proxi here distance: 0
+12:19:27.771 INFO[TEST]: proxi can  distance: 0
+12:19:27.771 INFO[TEST]: imu acc 0.299275 17.214310 -29.178135
+12:19:27.771 INFO[TEST]: imu gyr -0.213740 1.946565 -1.954198
+12:19:27.771 INFO[TEST]: bms0 voltage, current, temp: 20188 317 21
+12:19:27.771 INFO[TEST]: bms1 voltage, current, temp: 22402 317 -40
+12:19:27.771 INFO[TEST]: 
+12:19:28.878 INFO[TEST]: proxi here distance: 0
+12:19:28.878 INFO[TEST]: proxi can  distance: 0
+12:19:28.878 INFO[TEST]: imu acc 0.191536 -19.373880 24.534582
+12:19:28.878 INFO[TEST]: imu gyr -1.954198 1.473282 3.908397
+12:19:28.878 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:28.878 INFO[TEST]: bms1 voltage, current, temp: 22402 322 -40
+12:19:28.878 INFO[TEST]: 
+12:19:28.985 INFO[TEST]: proxi here distance: 0
+12:19:28.985 INFO[TEST]: proxi can  distance: 0
+12:19:28.985 INFO[TEST]: imu acc 0.354342 19.689915 12.871228
+12:19:28.985 INFO[TEST]: imu gyr -0.022901 0.000000 0.000000
+12:19:28.985 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:28.985 INFO[TEST]: bms1 voltage, current, temp: 22402 322 -40
+12:19:28.985 INFO[TEST]: 
+12:19:28.093 INFO[TEST]: proxi here distance: 0
+12:19:28.093 INFO[TEST]: proxi can  distance: 0
+12:19:28.097 INFO[TEST]: imu acc 0.308852 7.999028 -7.182605
+12:19:28.097 INFO[TEST]: imu gyr -0.358779 0.137405 0.213740
+12:19:28.097 INFO[TEST]: bms0 voltage, current, temp: 20188 322 21
+12:19:28.097 INFO[TEST]: bms1 voltage, current, temp: 22402 322 -40
+12:19:28.097 INFO[TEST]: 
+12:19:28.204 INFO[TEST]: proxi here distance: 0
+12:19:28.204 INFO[TEST]: proxi can  distance: 0
+12:19:28.204 INFO[TEST]: imu acc 0.301669 -19.330784 0.195127
+12:19:28.204 INFO[TEST]: imu gyr -1.954198 1.732824 0.519084
+12:19:28.204 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:28.204 INFO[TEST]: bms1 voltage, current, temp: 22402 325 -40
+12:19:28.204 INFO[TEST]: 
+12:19:28.311 INFO[TEST]: proxi here distance: 0
+12:19:28.311 INFO[TEST]: proxi can  distance: 0
+12:19:28.311 INFO[TEST]: imu acc 0.390255 11.915941 -4.644751
+12:19:28.311 INFO[TEST]: imu gyr -0.480916 148.961838 0.450382
+12:19:28.311 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:28.312 INFO[TEST]: bms1 voltage, current, temp: 22402 325 -40
+12:19:28.312 INFO[TEST]: 
+12:19:28.419 INFO[TEST]: proxi here distance: 0
+12:19:28.419 INFO[TEST]: proxi can  distance: 0
+12:19:28.419 INFO[TEST]: imu acc 0.265756 -0.268151 9.818621
+12:19:28.419 INFO[TEST]: imu gyr -1.954198 1.465649 72.587784
+12:19:28.419 INFO[TEST]: bms0 voltage, current, temp: 20188 315 21
+12:19:28.419 INFO[TEST]: bms1 voltage, current, temp: 22402 315 -40
+12:19:28.419 INFO[TEST]: 
+12:19:28.526 INFO[TEST]: proxi here distance: 0
+12:19:28.526 INFO[TEST]: proxi can  distance: 0
+12:19:28.526 INFO[TEST]: imu acc 0.222661 7.999028 38.039078
+12:19:28.526 INFO[TEST]: imu gyr -1.954198 0.000000 0.374046
+12:19:28.526 INFO[TEST]: bms0 voltage, current, temp: 20188 315 21
+12:19:28.526 INFO[TEST]: bms1 voltage, current, temp: 22402 315 -40
+12:19:28.527 INFO[TEST]: 
+12:19:28.633 INFO[TEST]: proxi here distance: 0
+12:19:28.633 INFO[TEST]: proxi can  distance: 0
+12:19:28.633 INFO[TEST]: imu acc 0.258574 -20.128054 10.091560
+12:19:28.633 INFO[TEST]: imu gyr -0.351145 0.351145 17.587786
+12:19:28.633 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:28.633 INFO[TEST]: bms1 voltage, current, temp: 22402 325 -40
+12:19:28.634 INFO[TEST]: 
+12:19:28.741 INFO[TEST]: proxi here distance: 0
+12:19:28.741 INFO[TEST]: proxi can  distance: 0
+12:19:28.741 INFO[TEST]: imu acc 0.114922 -0.572214 19.000385
+12:19:28.741 INFO[TEST]: imu gyr -1.954198 1.175573 0.000000
+12:19:28.741 INFO[TEST]: bms0 voltage, current, temp: 20188 325 21
+12:19:28.741 INFO[TEST]: bms1 voltage, current, temp: 22402 325 -40
+12:19:28.741 INFO[TEST]: 
+12:19:29.849 INFO[TEST]: proxi here distance: 0
+12:19:29.849 INFO[TEST]: proxi can  distance: 0
+12:19:29.849 INFO[TEST]: imu acc 0.098162 26.446352 24.607605
+12:19:29.849 INFO[TEST]: imu gyr -0.389313 247.190842 0.572519
+12:19:29.849 INFO[TEST]: bms0 voltage, current, temp: 20188 325 20
+12:19:29.849 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:29.849 INFO[TEST]: 
+12:19:29.956 INFO[TEST]: proxi here distance: 0
+12:19:29.956 INFO[TEST]: proxi can  distance: 0
+12:19:29.956 INFO[TEST]: imu acc 0.031125 0.110133 -9.771935
+12:19:29.956 INFO[TEST]: imu gyr 0.160305 -0.145038 48.854961
+12:19:29.956 INFO[TEST]: bms0 voltage, current, temp: 20188 327 20
+12:19:29.956 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:29.956 INFO[TEST]: 
+12:19:29.063 INFO[TEST]: proxi here distance: 0
+12:19:29.063 INFO[TEST]: proxi can  distance: 0
+12:19:29.063 INFO[TEST]: imu acc 0.186748 -36.116531 -4.882974
+12:19:29.063 INFO[TEST]: imu gyr 0.206107 -198.099243 0.000000
+12:19:29.063 INFO[TEST]: bms0 voltage, current, temp: 20188 327 20
+12:19:29.063 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:29.063 INFO[TEST]: 
+12:19:29.171 INFO[TEST]: proxi here distance: 0
+12:19:29.171 INFO[TEST]: proxi can  distance: 0
+12:19:29.171 INFO[TEST]: imu acc 0.040701 -7.898471 14.958972
+12:19:29.171 INFO[TEST]: imu gyr 0.221374 117.763359 0.000000
+12:19:29.171 INFO[TEST]: bms0 voltage, current, temp: 20188 315 20
+12:19:29.171 INFO[TEST]: bms1 voltage, current, temp: 22404 315 -40
+12:19:29.174 INFO[TEST]: 
+12:19:29.280 INFO[TEST]: proxi here distance: 0
+12:19:29.280 INFO[TEST]: proxi can  distance: 0
+12:19:29.280 INFO[TEST]: imu acc 0.658405 0.345962 3.369839
+12:19:29.280 INFO[TEST]: imu gyr -0.770992 1.465649 23.541985
+12:19:29.280 INFO[TEST]: bms0 voltage, current, temp: 20187 315 20
+12:19:29.280 INFO[TEST]: bms1 voltage, current, temp: 22403 315 -40
+12:19:29.280 INFO[TEST]: 
+12:19:29.389 INFO[TEST]: proxi here distance: 0
+12:19:29.389 INFO[TEST]: proxi can  distance: 0
+12:19:29.389 INFO[TEST]: imu acc 0.009577 -31.665710 24.722527
+12:19:29.389 INFO[TEST]: imu gyr 0.137405 193.671753 0.000000
+12:19:29.389 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:29.389 INFO[TEST]: bms1 voltage, current, temp: 22403 320 -40
+12:19:29.389 INFO[TEST]: 
+12:19:29.495 INFO[TEST]: proxi here distance: 0
+12:19:29.495 INFO[TEST]: proxi can  distance: 0
+12:19:29.495 INFO[TEST]: imu acc 0.514753 29.601910 24.775198
+12:19:29.495 INFO[TEST]: imu gyr -0.328244 -43.167938 107.480919
+12:19:29.495 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:29.495 INFO[TEST]: bms1 voltage, current, temp: 22403 320 -40
+12:19:29.495 INFO[TEST]: 
+12:19:29.602 INFO[TEST]: proxi here distance: 0
+12:19:29.602 INFO[TEST]: proxi can  distance: 0
+12:19:29.602 INFO[TEST]: imu acc 0.627281 38.027103 -4.660314
+12:19:29.603 INFO[TEST]: imu gyr -0.656489 -222.778625 0.000000
+12:19:29.603 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:29.603 INFO[TEST]: bms1 voltage, current, temp: 22403 320 -40
+12:19:29.603 INFO[TEST]: 
+12:19:29.709 INFO[TEST]: proxi here distance: 0
+12:19:29.709 INFO[TEST]: proxi can  distance: 0
+12:19:29.709 INFO[TEST]: imu acc 0.248997 9.473856 24.782381
+12:19:29.709 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:29.709 INFO[TEST]: bms0 voltage, current, temp: 20187 340 20
+12:19:29.709 INFO[TEST]: bms1 voltage, current, temp: 22403 340 -40
+12:19:29.709 INFO[TEST]: 
+12:19:29.817 INFO[TEST]: proxi here distance: 0
+12:19:29.817 INFO[TEST]: proxi can  distance: 0
+12:19:29.817 INFO[TEST]: imu acc 0.438139 4.304775 24.706964
+12:19:29.817 INFO[TEST]: imu gyr -1.954198 1.580153 148.519089
+12:19:29.817 INFO[TEST]: bms0 voltage, current, temp: 20188 340 20
+12:19:29.817 INFO[TEST]: bms1 voltage, current, temp: 22404 340 -40
+12:19:29.817 INFO[TEST]: 
+12:19:30.924 INFO[TEST]: proxi here distance: 0
+12:19:30.924 INFO[TEST]: proxi can  distance: 0
+12:19:30.924 INFO[TEST]: imu acc 0.332794 -15.916653 14.715961
+12:19:30.924 INFO[TEST]: imu gyr -1.954198 0.000000 0.083969
+12:19:30.924 INFO[TEST]: bms0 voltage, current, temp: 20188 330 20
+12:19:30.925 INFO[TEST]: bms1 voltage, current, temp: 22404 330 -40
+12:19:30.925 INFO[TEST]: 
+12:19:30.032 INFO[TEST]: proxi here distance: 0
+12:19:30.032 INFO[TEST]: proxi can  distance: 0
+12:19:30.032 INFO[TEST]: imu acc 0.079009 -17.484856 9.812635
+12:19:30.032 INFO[TEST]: imu gyr -1.954198 0.519084 0.000000
+12:19:30.032 INFO[TEST]: bms0 voltage, current, temp: 20188 330 20
+12:19:30.032 INFO[TEST]: bms1 voltage, current, temp: 22404 330 -40
+12:19:30.032 INFO[TEST]: 
+12:19:30.139 INFO[TEST]: proxi here distance: 0
+12:19:30.139 INFO[TEST]: proxi can  distance: 0
+12:19:30.139 INFO[TEST]: imu acc 0.476446 12.923901 24.799141
+12:19:30.139 INFO[TEST]: imu gyr -0.450382 -75.977097 0.259542
+12:19:30.139 INFO[TEST]: bms0 voltage, current, temp: 20188 307 20
+12:19:30.139 INFO[TEST]: bms1 voltage, current, temp: 22404 307 -40
+12:19:30.139 INFO[TEST]: 
+12:19:30.247 INFO[TEST]: proxi here distance: 0
+12:19:30.247 INFO[TEST]: proxi can  distance: 0
+12:19:30.247 INFO[TEST]: imu acc 0.107739 -0.876278 -5.382165
+12:19:30.247 INFO[TEST]: imu gyr 0.465649 0.167939 -25.404581
+12:19:30.247 INFO[TEST]: bms0 voltage, current, temp: 20188 307 20
+12:19:30.247 INFO[TEST]: bms1 voltage, current, temp: 22404 307 -40
+12:19:30.247 INFO[TEST]: 
+12:19:30.354 INFO[TEST]: proxi here distance: 0
+12:19:30.354 INFO[TEST]: proxi can  distance: 0
+12:19:30.354 INFO[TEST]: imu acc 0.043096 17.958906 9.205706
+12:19:30.354 INFO[TEST]: imu gyr 0.000000 0.312977 47.083969
+12:19:30.354 INFO[TEST]: bms0 voltage, current, temp: 20188 307 20
+12:19:30.357 INFO[TEST]: bms1 voltage, current, temp: 22403 307 -40
+12:19:30.357 INFO[TEST]: 
+12:19:30.467 INFO[TEST]: proxi here distance: 0
+12:19:30.467 INFO[TEST]: proxi can  distance: 0
+12:19:30.467 INFO[TEST]: imu acc 0.299275 0.208296 10.087969
+12:19:30.467 INFO[TEST]: imu gyr -0.236641 141.015274 0.000000
+12:19:30.467 INFO[TEST]: bms0 voltage, current, temp: 20188 322 20
+12:19:30.467 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:30.467 INFO[TEST]: 
+12:19:30.573 INFO[TEST]: proxi here distance: 0
+12:19:30.573 INFO[TEST]: proxi can  distance: 0
+12:19:30.573 INFO[TEST]: imu acc 0.019154 37.521927 14.790181
+12:19:30.573 INFO[TEST]: imu gyr 0.335878 211.251907 0.000000
+12:19:30.573 INFO[TEST]: bms0 voltage, current, temp: 20188 322 20
+12:19:30.573 INFO[TEST]: bms1 voltage, current, temp: 22403 322 -40
+12:19:30.573 INFO[TEST]: 
+12:19:30.682 INFO[TEST]: proxi here distance: 0
+12:19:30.682 INFO[TEST]: proxi can  distance: 0
+12:19:30.682 INFO[TEST]: imu acc 0.301669 -32.412701 0.262165
+12:19:30.682 INFO[TEST]: imu gyr 1.916031 211.488556 0.000000
+12:19:30.682 INFO[TEST]: bms0 voltage, current, temp: 20188 317 20
+12:19:30.682 INFO[TEST]: bms1 voltage, current, temp: 22403 317 -40
+12:19:30.682 INFO[TEST]: 
+12:19:30.789 INFO[TEST]: proxi here distance: 0
+12:19:30.789 INFO[TEST]: proxi can  distance: 0
+12:19:30.789 INFO[TEST]: imu acc 0.016759 -0.269348 9.512163
+12:19:30.789 INFO[TEST]: imu gyr -0.389313 170.496185 0.480916
+12:19:30.789 INFO[TEST]: bms0 voltage, current, temp: 20187 317 20
+12:19:30.789 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:30.789 INFO[TEST]: 
+12:19:31.896 INFO[TEST]: proxi here distance: 0
+12:19:31.896 INFO[TEST]: proxi can  distance: 0
+12:19:31.896 INFO[TEST]: imu acc 0.229843 -26.333824 -4.641160
+12:19:31.896 INFO[TEST]: imu gyr 0.251908 1.106870 54.931297
+12:19:31.896 INFO[TEST]: bms0 voltage, current, temp: 20187 332 20
+12:19:31.896 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:31.896 INFO[TEST]: 
+12:19:31.003 INFO[TEST]: proxi here distance: 0
+12:19:31.003 INFO[TEST]: proxi can  distance: 0
+12:19:31.003 INFO[TEST]: imu acc 0.351948 0.215478 33.997665
+12:19:31.003 INFO[TEST]: imu gyr -0.458015 1.290076 139.290070
+12:19:31.003 INFO[TEST]: bms0 voltage, current, temp: 20187 332 20
+12:19:31.003 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:31.003 INFO[TEST]: 
+12:19:31.110 INFO[TEST]: proxi here distance: 0
+12:19:31.110 INFO[TEST]: proxi can  distance: 0
+12:19:31.110 INFO[TEST]: imu acc 0.325611 -0.269348 3.369839
+12:19:31.110 INFO[TEST]: imu gyr -0.099237 156.946564 96.129768
+12:19:31.110 INFO[TEST]: bms0 voltage, current, temp: 20187 332 20
+12:19:31.111 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:31.111 INFO[TEST]: 
+12:19:31.217 INFO[TEST]: proxi here distance: 0
+12:19:31.218 INFO[TEST]: proxi can  distance: 0
+12:19:31.218 INFO[TEST]: imu acc 0.248997 -12.744335 9.818621
+12:19:31.218 INFO[TEST]: imu gyr 0.000000 0.000000 0.000000
+12:19:31.218 INFO[TEST]: bms0 voltage, current, temp: 20187 330 20
+12:19:31.218 INFO[TEST]: bms1 voltage, current, temp: 22404 330 -40
+12:19:31.218 INFO[TEST]: 
+12:19:31.325 INFO[TEST]: proxi here distance: 0
+12:19:31.325 INFO[TEST]: proxi can  distance: 0
+12:19:31.325 INFO[TEST]: imu acc 0.466869 -15.277401 0.265756
+12:19:31.325 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:31.325 INFO[TEST]: bms0 voltage, current, temp: 20188 330 20
+12:19:31.325 INFO[TEST]: bms1 voltage, current, temp: 22404 330 -40
+12:19:31.325 INFO[TEST]: 
+12:19:31.432 INFO[TEST]: proxi here distance: 0
+12:19:31.432 INFO[TEST]: proxi can  distance: 0
+12:19:31.432 INFO[TEST]: imu acc 0.488417 0.038307 3.369839
+12:19:31.432 INFO[TEST]: imu gyr -0.534351 -167.664124 0.404580
+12:19:31.432 INFO[TEST]: bms0 voltage, current, temp: 20188 337 20
+12:19:31.432 INFO[TEST]: bms1 voltage, current, temp: 22404 337 -40
+12:19:31.432 INFO[TEST]: 
+12:19:31.540 INFO[TEST]: proxi here distance: 0
+12:19:31.540 INFO[TEST]: proxi can  distance: 0
+12:19:31.540 INFO[TEST]: imu acc 0.363919 28.349741 14.897920
+12:19:31.540 INFO[TEST]: imu gyr -0.839695 37.335876 0.000000
+12:19:31.542 INFO[TEST]: bms0 voltage, current, temp: 20188 337 20
+12:19:31.543 INFO[TEST]: bms1 voltage, current, temp: 22404 337 -40
+12:19:31.543 INFO[TEST]: 
+12:19:31.649 INFO[TEST]: proxi here distance: 0
+12:19:31.649 INFO[TEST]: proxi can  distance: 0
+12:19:31.649 INFO[TEST]: imu acc 0.136469 -10.769119 1.838747
+12:19:31.650 INFO[TEST]: imu gyr -0.152672 0.000000 0.480916
+12:19:31.650 INFO[TEST]: bms0 voltage, current, temp: 20188 327 20
+12:19:31.650 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:31.650 INFO[TEST]: 
+12:19:31.758 INFO[TEST]: proxi here distance: 0
+12:19:31.758 INFO[TEST]: proxi can  distance: 0
+12:19:31.758 INFO[TEST]: imu acc 0.418985 -4.766856 25.416845
+12:19:31.758 INFO[TEST]: imu gyr -1.946565 0.061069 72.305344
+12:19:31.758 INFO[TEST]: bms0 voltage, current, temp: 20186 327 20
+12:19:31.758 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:31.758 INFO[TEST]: 
+12:19:32.865 INFO[TEST]: proxi here distance: 0
+12:19:32.865 INFO[TEST]: proxi can  distance: 0
+12:19:32.865 INFO[TEST]: imu acc 0.150835 35.019989 9.818621
+12:19:32.865 INFO[TEST]: imu gyr 0.000000 0.000000 0.000000
+12:19:32.865 INFO[TEST]: bms0 voltage, current, temp: 20186 327 20
+12:19:32.865 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:32.865 INFO[TEST]: 
+12:19:32.973 INFO[TEST]: proxi here distance: 0
+12:19:32.973 INFO[TEST]: proxi can  distance: 0
+12:19:32.973 INFO[TEST]: imu acc 0.447716 0.038307 3.063381
+12:19:32.973 INFO[TEST]: imu gyr -0.595420 -109.870232 0.000000
+12:19:32.973 INFO[TEST]: bms0 voltage, current, temp: 20186 325 20
+12:19:32.973 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:32.973 INFO[TEST]: 
+12:19:32.079 INFO[TEST]: proxi here distance: 0
+12:19:32.079 INFO[TEST]: proxi can  distance: 0
+12:19:32.079 INFO[TEST]: imu acc 0.308852 5.195417 0.259771
+12:19:32.079 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:32.079 INFO[TEST]: bms0 voltage, current, temp: 20186 325 20
+12:19:32.079 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:32.079 INFO[TEST]: 
+12:19:32.188 INFO[TEST]: proxi here distance: 0
+12:19:32.188 INFO[TEST]: proxi can  distance: 0
+12:19:32.188 INFO[TEST]: imu acc 0.205901 24.066515 9.969456
+12:19:32.188 INFO[TEST]: imu gyr -0.671756 1.763359 0.000000
+12:19:32.188 INFO[TEST]: bms0 voltage, current, temp: 20186 317 20
+12:19:32.188 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:32.188 INFO[TEST]: 
+12:19:32.295 INFO[TEST]: proxi here distance: 0
+12:19:32.295 INFO[TEST]: proxi can  distance: 0
+12:19:32.295 INFO[TEST]: imu acc 0.296881 -8.520964 -9.786300
+12:19:32.295 INFO[TEST]: imu gyr -0.244275 209.763351 78.473282
+12:19:32.295 INFO[TEST]: bms0 voltage, current, temp: 20187 317 20
+12:19:32.295 INFO[TEST]: bms1 voltage, current, temp: 22404 317 -40
+12:19:32.295 INFO[TEST]: 
+12:19:32.403 INFO[TEST]: proxi here distance: 0
+12:19:32.403 INFO[TEST]: proxi can  distance: 0
+12:19:32.403 INFO[TEST]: imu acc 0.268151 -0.575805 3.063381
+12:19:32.403 INFO[TEST]: imu gyr 0.251908 0.954198 0.000000
+12:19:32.403 INFO[TEST]: bms0 voltage, current, temp: 20187 327 20
+12:19:32.403 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:32.403 INFO[TEST]: 
+12:19:32.510 INFO[TEST]: proxi here distance: 0
+12:19:32.510 INFO[TEST]: proxi can  distance: 0
+12:19:32.510 INFO[TEST]: imu acc 0.205901 17.865532 13.522451
+12:19:32.510 INFO[TEST]: imu gyr -0.351145 0.000000 0.282443
+12:19:32.510 INFO[TEST]: bms0 voltage, current, temp: 20187 327 20
+12:19:32.510 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:32.510 INFO[TEST]: 
+12:19:32.617 INFO[TEST]: proxi here distance: 0
+12:19:32.617 INFO[TEST]: proxi can  distance: 0
+12:19:32.617 INFO[TEST]: imu acc 0.009577 -15.021221 24.535778
+12:19:32.617 INFO[TEST]: imu gyr 1.946565 0.000000 0.274809
+12:19:32.617 INFO[TEST]: bms0 voltage, current, temp: 20187 327 20
+12:19:32.617 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:32.617 INFO[TEST]: 
+12:19:32.724 INFO[TEST]: proxi here distance: 0
+12:19:32.724 INFO[TEST]: proxi can  distance: 0
+12:19:32.727 INFO[TEST]: imu acc 0.155623 24.554932 29.710846
+12:19:32.727 INFO[TEST]: imu gyr 0.022901 214.885498 1.862595
+12:19:32.727 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:32.727 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:32.727 INFO[TEST]: 
+12:19:33.838 INFO[TEST]: proxi here distance: 0
+12:19:33.838 INFO[TEST]: proxi can  distance: 0
+12:19:33.838 INFO[TEST]: imu acc 0.203507 0.624887 -9.744401
+12:19:33.838 INFO[TEST]: imu gyr 0.427481 229.534348 0.000000
+12:19:33.838 INFO[TEST]: bms0 voltage, current, temp: 20186 320 20
+12:19:33.838 INFO[TEST]: bms1 voltage, current, temp: 22403 320 -40
+12:19:33.838 INFO[TEST]: 
+12:19:33.945 INFO[TEST]: proxi here distance: 0
+12:19:33.945 INFO[TEST]: proxi can  distance: 0
+12:19:33.945 INFO[TEST]: imu acc 0.205901 -12.667721 14.954184
+12:19:33.945 INFO[TEST]: imu gyr -0.061069 0.946565 -1.954198
+12:19:33.945 INFO[TEST]: bms0 voltage, current, temp: 20186 317 20
+12:19:33.945 INFO[TEST]: bms1 voltage, current, temp: 22403 317 -40
+12:19:33.945 INFO[TEST]: 
+12:19:33.053 INFO[TEST]: proxi here distance: 0
+12:19:33.053 INFO[TEST]: proxi can  distance: 0
+12:19:33.053 INFO[TEST]: imu acc 0.380678 -23.815125 0.294487
+12:19:33.053 INFO[TEST]: imu gyr -1.954198 1.786260 68.664124
+12:19:33.053 INFO[TEST]: bms0 voltage, current, temp: 20186 317 20
+12:19:33.053 INFO[TEST]: bms1 voltage, current, temp: 22403 317 -40
+12:19:33.053 INFO[TEST]: 
+12:19:33.160 INFO[TEST]: proxi here distance: 0
+12:19:33.160 INFO[TEST]: proxi can  distance: 0
+12:19:33.160 INFO[TEST]: imu acc 0.320823 -6.545747 24.783579
+12:19:33.160 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:33.160 INFO[TEST]: bms0 voltage, current, temp: 20186 315 20
+12:19:33.160 INFO[TEST]: bms1 voltage, current, temp: 22403 315 -40
+12:19:33.160 INFO[TEST]: 
+12:19:33.267 INFO[TEST]: proxi here distance: 0
+12:19:33.268 INFO[TEST]: proxi can  distance: 0
+12:19:33.268 INFO[TEST]: imu acc 0.560243 12.306196 15.437812
+12:19:33.268 INFO[TEST]: imu gyr -0.916031 1.908397 0.099237
+12:19:33.268 INFO[TEST]: bms0 voltage, current, temp: 20187 315 20
+12:19:33.268 INFO[TEST]: bms1 voltage, current, temp: 22403 315 -40
+12:19:33.268 INFO[TEST]: 
+12:19:33.374 INFO[TEST]: proxi here distance: 0
+12:19:33.374 INFO[TEST]: proxi can  distance: 0
+12:19:33.374 INFO[TEST]: imu acc 0.395043 -19.383457 -18.349161
+12:19:33.374 INFO[TEST]: imu gyr -0.068702 -212.641220 0.000000
+12:19:33.374 INFO[TEST]: bms0 voltage, current, temp: 20187 315 20
+12:19:33.374 INFO[TEST]: bms1 voltage, current, temp: 22403 315 -40
+12:19:33.374 INFO[TEST]: 
+12:19:33.482 INFO[TEST]: proxi here distance: 0
+12:19:33.482 INFO[TEST]: proxi can  distance: 0
+12:19:33.482 INFO[TEST]: imu acc 0.342371 -19.359514 29.673735
+12:19:33.482 INFO[TEST]: imu gyr -0.351145 231.526718 125.068703
+12:19:33.482 INFO[TEST]: bms0 voltage, current, temp: 20187 335 20
+12:19:33.482 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:33.482 INFO[TEST]: 
+12:19:33.588 INFO[TEST]: proxi here distance: 0
+12:19:33.588 INFO[TEST]: proxi can  distance: 0
+12:19:33.588 INFO[TEST]: imu acc 0.541090 -6.607996 0.196325
+12:19:33.588 INFO[TEST]: imu gyr -0.854962 74.175575 0.000000
+12:19:33.588 INFO[TEST]: bms0 voltage, current, temp: 20187 335 20
+12:19:33.588 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:33.588 INFO[TEST]: 
+12:19:33.696 INFO[TEST]: proxi here distance: 0
+12:19:33.696 INFO[TEST]: proxi can  distance: 0
+12:19:33.696 INFO[TEST]: imu acc 0.126893 -16.891092 0.070629
+12:19:33.696 INFO[TEST]: imu gyr 0.000000 0.000000 0.206107
+12:19:33.696 INFO[TEST]: bms0 voltage, current, temp: 20187 342 20
+12:19:33.696 INFO[TEST]: bms1 voltage, current, temp: 22403 342 -40
+12:19:33.696 INFO[TEST]: 
+12:19:33.803 INFO[TEST]: proxi here distance: 0
+12:19:33.803 INFO[TEST]: proxi can  distance: 0
+12:19:33.803 INFO[TEST]: imu acc 0.306458 -31.737537 14.969746
+12:19:33.803 INFO[TEST]: imu gyr -1.954198 0.000000 0.068702
+12:19:33.803 INFO[TEST]: bms0 voltage, current, temp: 20186 342 20
+12:19:33.803 INFO[TEST]: bms1 voltage, current, temp: 22403 342 -40
+12:19:33.803 INFO[TEST]: 
+12:19:34.917 INFO[TEST]: proxi here distance: 0
+12:19:34.917 INFO[TEST]: proxi can  distance: 0
+12:19:34.917 INFO[TEST]: imu acc 0.002394 28.287493 9.923965
+12:19:34.917 INFO[TEST]: imu gyr 0.541985 0.000000 0.000000
+12:19:34.917 INFO[TEST]: bms0 voltage, current, temp: 20186 335 20
+12:19:34.917 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:34.917 INFO[TEST]: 
+12:19:34.024 INFO[TEST]: proxi here distance: 0
+12:19:34.024 INFO[TEST]: proxi can  distance: 0
+12:19:34.024 INFO[TEST]: imu acc 0.198719 -0.577003 3.063381
+12:19:34.024 INFO[TEST]: imu gyr -0.083969 0.000000 0.000000
+12:19:34.024 INFO[TEST]: bms0 voltage, current, temp: 20186 335 20
+12:19:34.024 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:34.024 INFO[TEST]: 
+12:19:34.131 INFO[TEST]: proxi here distance: 0
+12:19:34.131 INFO[TEST]: proxi can  distance: 0
+12:19:34.131 INFO[TEST]: imu acc 0.294487 -0.287304 -26.929979
+12:19:34.131 INFO[TEST]: imu gyr -1.954198 0.954198 -1.954198
+12:19:34.131 INFO[TEST]: bms0 voltage, current, temp: 20186 335 20
+12:19:34.131 INFO[TEST]: bms1 voltage, current, temp: 22403 335 -40
+12:19:34.131 INFO[TEST]: 
+12:19:34.237 INFO[TEST]: proxi here distance: 0
+12:19:34.238 INFO[TEST]: proxi can  distance: 0
+12:19:34.238 INFO[TEST]: imu acc -0.035913 13.539210 -4.848258
+12:19:34.238 INFO[TEST]: imu gyr 0.335878 0.000000 0.358779
+12:19:34.238 INFO[TEST]: bms0 voltage, current, temp: 20186 332 20
+12:19:34.238 INFO[TEST]: bms1 voltage, current, temp: 22403 332 -40
+12:19:34.238 INFO[TEST]: 
+12:19:34.345 INFO[TEST]: proxi here distance: 0
+12:19:34.345 INFO[TEST]: proxi can  distance: 0
+12:19:34.345 INFO[TEST]: imu acc 0.268151 -0.270545 3.369839
+12:19:34.345 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:34.345 INFO[TEST]: bms0 voltage, current, temp: 20187 332 20
+12:19:34.345 INFO[TEST]: bms1 voltage, current, temp: 22404 332 -40
+12:19:34.345 INFO[TEST]: 
+12:19:34.452 INFO[TEST]: proxi here distance: 0
+12:19:34.452 INFO[TEST]: proxi can  distance: 0
+12:19:34.452 INFO[TEST]: imu acc 0.244209 28.201302 24.721329
+12:19:34.452 INFO[TEST]: imu gyr -0.633588 1.908397 13.748092
+12:19:34.452 INFO[TEST]: bms0 voltage, current, temp: 20187 322 20
+12:19:34.452 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:34.452 INFO[TEST]: 
+12:19:34.559 INFO[TEST]: proxi here distance: 0
+12:19:34.559 INFO[TEST]: proxi can  distance: 0
+12:19:34.559 INFO[TEST]: imu acc 0.114922 -0.268151 3.063381
+12:19:34.559 INFO[TEST]: imu gyr 0.221374 241.305344 64.488548
+12:19:34.559 INFO[TEST]: bms0 voltage, current, temp: 20187 322 20
+12:19:34.559 INFO[TEST]: bms1 voltage, current, temp: 22404 322 -40
+12:19:34.559 INFO[TEST]: 
+12:19:34.666 INFO[TEST]: proxi here distance: 0
+12:19:34.666 INFO[TEST]: proxi can  distance: 0
+12:19:34.666 INFO[TEST]: imu acc 0.366313 11.899182 10.011354
+12:19:34.667 INFO[TEST]: imu gyr -0.625954 -216.534348 0.358779
+12:19:34.667 INFO[TEST]: bms0 voltage, current, temp: 20187 312 20
+12:19:34.667 INFO[TEST]: bms1 voltage, current, temp: 22404 312 -40
+12:19:34.667 INFO[TEST]: 
+12:19:34.774 INFO[TEST]: proxi here distance: 0
+12:19:34.774 INFO[TEST]: proxi can  distance: 0
+12:19:34.774 INFO[TEST]: imu acc 0.265756 0.043096 31.996111
+12:19:34.774 INFO[TEST]: imu gyr -0.190840 -15.450381 0.167939
+12:19:34.774 INFO[TEST]: bms0 voltage, current, temp: 20186 312 20
+12:19:34.774 INFO[TEST]: bms1 voltage, current, temp: 22406 312 -40
+12:19:34.774 INFO[TEST]: 
+12:19:35.881 INFO[TEST]: proxi here distance: 0
+12:19:35.881 INFO[TEST]: proxi can  distance: 0
+12:19:35.881 INFO[TEST]: imu acc 0.347159 31.361647 9.818621
+12:19:35.881 INFO[TEST]: imu gyr -1.954198 0.000000 0.122137
+12:19:35.881 INFO[TEST]: bms0 voltage, current, temp: 20186 312 20
+12:19:35.881 INFO[TEST]: bms1 voltage, current, temp: 22406 312 -40
+12:19:35.882 INFO[TEST]: 
+12:19:35.989 INFO[TEST]: proxi here distance: 0
+12:19:35.989 INFO[TEST]: proxi can  distance: 0
+12:19:35.989 INFO[TEST]: imu acc 0.220267 -28.577190 15.010448
+12:19:35.989 INFO[TEST]: imu gyr -0.312977 0.160305 -15.702291
+12:19:35.989 INFO[TEST]: bms0 voltage, current, temp: 20186 315 20
+12:19:35.992 INFO[TEST]: bms1 voltage, current, temp: 22406 315 -40
+12:19:35.992 INFO[TEST]: 
+12:19:35.096 INFO[TEST]: proxi here distance: 0
+12:19:35.096 INFO[TEST]: proxi can  distance: 0
+12:19:35.096 INFO[TEST]: imu acc 0.136469 -26.065674 -4.599261
+12:19:35.096 INFO[TEST]: imu gyr -0.045802 199.137405 0.000000
+12:19:35.096 INFO[TEST]: bms0 voltage, current, temp: 20186 315 20
+12:19:35.096 INFO[TEST]: bms1 voltage, current, temp: 22406 315 -40
+12:19:35.096 INFO[TEST]: 
+12:19:35.205 INFO[TEST]: proxi here distance: 0
+12:19:35.205 INFO[TEST]: proxi can  distance: 0
+12:19:35.205 INFO[TEST]: imu acc 0.083797 6.306327 9.846154
+12:19:35.205 INFO[TEST]: imu gyr 0.427481 0.000000 0.114504
+12:19:35.205 INFO[TEST]: bms0 voltage, current, temp: 20186 325 20
+12:19:35.205 INFO[TEST]: bms1 voltage, current, temp: 22406 325 -40
+12:19:35.205 INFO[TEST]: 
+12:19:35.312 INFO[TEST]: proxi here distance: 0
+12:19:35.312 INFO[TEST]: proxi can  distance: 0
+12:19:35.312 INFO[TEST]: imu acc 0.509965 0.038307 3.369839
+12:19:35.312 INFO[TEST]: imu gyr -0.519084 190.396942 -9.816793
+12:19:35.312 INFO[TEST]: bms0 voltage, current, temp: 20187 325 20
+12:19:35.312 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:35.312 INFO[TEST]: 
+12:19:35.419 INFO[TEST]: proxi here distance: 0
+12:19:35.419 INFO[TEST]: proxi can  distance: 0
+12:19:35.420 INFO[TEST]: imu acc 0.191536 -8.506598 -4.653131
+12:19:35.420 INFO[TEST]: imu gyr -1.954198 1.839695 23.541985
+12:19:35.420 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:35.420 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:35.420 INFO[TEST]: 
+12:19:35.527 INFO[TEST]: proxi here distance: 0
+12:19:35.527 INFO[TEST]: proxi can  distance: 0
+12:19:35.527 INFO[TEST]: imu acc 0.311246 -0.268151 9.817424
+12:19:35.527 INFO[TEST]: imu gyr 1.938931 0.000000 0.000000
+12:19:35.527 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:35.527 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:35.527 INFO[TEST]: 
+12:19:35.634 INFO[TEST]: proxi here distance: 0
+12:19:35.634 INFO[TEST]: proxi can  distance: 0
+12:19:35.634 INFO[TEST]: imu acc 0.641646 38.022316 -4.703409
+12:19:35.634 INFO[TEST]: imu gyr -1.954198 0.000000 0.000000
+12:19:35.634 INFO[TEST]: bms0 voltage, current, temp: 20187 320 20
+12:19:35.634 INFO[TEST]: bms1 voltage, current, temp: 22404 320 -40
+12:19:35.634 INFO[TEST]: 
+12:19:35.741 INFO[TEST]: proxi here distance: 0
+12:19:35.741 INFO[TEST]: proxi can  distance: 0
+12:19:35.741 INFO[TEST]: imu acc 0.239420 3.303998 10.049662
+12:19:35.741 INFO[TEST]: imu gyr -0.595420 0.000000 0.534351
+12:19:35.741 INFO[TEST]: bms0 voltage, current, temp: 20187 325 20
+12:19:35.741 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:35.741 INFO[TEST]: 
+12:19:36.848 INFO[TEST]: proxi here distance: 0
+12:19:36.848 INFO[TEST]: proxi can  distance: 0
+12:19:36.848 INFO[TEST]: imu acc 0.474052 18.617311 -9.603143
+12:19:36.848 INFO[TEST]: imu gyr -0.198473 -117.717560 105.526718
+12:19:36.848 INFO[TEST]: bms0 voltage, current, temp: 20187 325 20
+12:19:36.848 INFO[TEST]: bms1 voltage, current, temp: 22404 325 -40
+12:19:36.848 INFO[TEST]: 
+12:19:36.955 INFO[TEST]: proxi here distance: 0
+12:19:36.955 INFO[TEST]: proxi can  distance: 0
+12:19:36.955 INFO[TEST]: imu acc 0.565032 -9.670180 -4.766856
+12:19:36.955 INFO[TEST]: imu gyr -0.633588 -164.801529 0.259542
+12:19:36.955 INFO[TEST]: bms0 voltage, current, temp: 20187 327 20
+12:19:36.955 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:36.955 INFO[TEST]: 
+12:19:36.062 INFO[TEST]: proxi here distance: 0
+12:19:36.062 INFO[TEST]: proxi can  distance: 0
+12:19:36.062 INFO[TEST]: imu acc 0.213084 33.947384 9.818621
+12:19:36.062 INFO[TEST]: imu gyr -1.954198 1.068702 0.213740
+12:19:36.062 INFO[TEST]: bms0 voltage, current, temp: 20187 327 20
+12:19:36.062 INFO[TEST]: bms1 voltage, current, temp: 22404 327 -40
+12:19:36.062 INFO[TEST]: 
+12:19:36.169 INFO[TEST]: proxi here distance: 0
+12:19:36.169 INFO[TEST]: proxi can  distance: 0
+12:19:36.169 INFO[TEST]: imu acc 0.438139 1.345541 0.119710
+12:19:36.169 INFO[TEST]: imu gy
